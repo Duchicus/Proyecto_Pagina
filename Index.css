@@ -1,5 +1,6 @@
 nav {
-    background-color: #333;
+    background-color: antiquewhite;
+    border: 2px solid black;
 }
 
 nav ul {
@@ -15,9 +16,10 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: white;
+    color: black;
+    font-size: 20px;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 16px;
     text-decoration: none;
 }
 
@@ -30,4 +32,7 @@ img{
 }
 .pradera{
     width: 100%;
+}
+body{
+    background-color: #555;
 }
