@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="Contacto.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><img src="../Imagenes/Manel.jpg"></li>
+            <li><a href="../Index.html">Home</a></li>
+            <li><a href="../Biografia/Biografia.html">Biografia</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+            <li><a href="../Portfolio/Portfolio.html">Portfolio</a></li>
+        </ul>
+    </nav>
+    <form>
+        <fieldset>
+            <legend><h2>Manel Piernas</h2></legend>
+            <label for="nombre">Alias:</label>
+            <input type="text" id="nombre" name="alias"><br><br>
+
+            <label for="apellido">Lenguaje favorito:</label>
+            <input type="text" id="apellido" name="lenguaje"><br><br>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad"><br><br>
+
+            <label for="sexo">Sexo:</label>
+            <input type="radio" id="sexo" name="Sexo">
+            <label for="sexo">Hombre</label>
+            <input type="radio" id="sexo" name="Sexo">
+            <label for="sexo">Mujer</label><br><br>
+
+            <label for="un_buen_alumno">¿Es Manel un buen alumno?</label>
+            
+            <input type="checkbox" id="un_buen_alumno" name="un_buen_alumno">
+            <span>Si</span><br><br>
+
+            <label for="argumenta">(Argumenta tu respuesta) : </label><br>
+            <textarea placeholder="Escribe aqui..."></textarea><br><br>
+            
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email"><br><br>
+            <label for="tel">Teléfono:</label>
+            <input type="tel" id="tel"><br><br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+</html>

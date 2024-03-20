@@ -1,0 +1,62 @@
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+img{
+    width: 50px;
+    
+}
+h1{
+    text-align: center;
+
+}
+h3{
+    text-align: center;
+    padding: 5px;
+}
+.contenedor {
+    margin: 0 auto; /* Centrar el contenedor en la página */
+    display: flex; /* Convertir el contenedor en un contenedor flexible */
+    justify-content: space-between; /* Distribuir los elementos uniformemente en la línea */
+  }
+.Sobre_mi {
+    width: calc(33.33% - 10px); /* Ancho del 33.33% menos el espacio entre los elementos */
+    box-sizing: border-box; /* Incluir el borde y el relleno en el ancho total */
+    border: 1px solid black; /* Borde para visualización */
+    text-align: center; /* Centrar el contenido horizontalmente */
+    padding: 20px; /* Espacio interno */
+    background-color: antiquewhite;
+}
+div ul{
+    text-align: left;
+}
+img{
+    width: 70px;
+    height: 70px;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+}
