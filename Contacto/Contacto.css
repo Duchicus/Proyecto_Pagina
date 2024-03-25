@@ -32,7 +32,9 @@ fieldset{
     margin: 30px;
     font-size: 20px;
     border: 2px solid black;
-    padding: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 img{
     width: 50px;   
